@@ -1,0 +1,434 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3C354F;
+}
+ul{
+    list-style: none;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+button.btn {
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: none;
+}
+
+.primary_color{
+    background-color: #FF42A5;
+}
+
+.button_secondary{
+    background-color: #4EC5F7;
+}
+
+
+/* header custom css */
+header{
+    padding: 20px 0px;
+}
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main_nav{
+    display: flex;
+}
+.main_nav ul li{
+    display: inline-block;
+}
+nav.main_nav ul li a {
+    padding: 0px 14px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* banner css */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.banner_item li{
+    padding: 10px 0px ;
+}
+.banner_item li i{
+    margin-right: 5px ;
+}
+
+.banner_left h3{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner_left h2{
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner_item li {
+    color: #534C64;
+    font-size: 20px;
+}
+
+.button_group button {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+/* gamper css */
+
+.gamper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.gamper_right h3 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamper_right p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 50%;
+    text-align: right;
+    margin-left: auto;
+}
+.gamper_right span {
+    color: #534C64;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.gamper_right h4 {
+    color: #534C64;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* videos css */
+.funny_videos {
+    padding: 30px 0px;
+}
+.main_card{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.funny_videos h2 strong {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.funny_videos p {
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.single_card{
+    position: relative;
+}
+.single_card p {
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.hover_part {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 27%;
+    left: 33%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+.single_card:hover img {
+    filter: brightness(0.5);
+}
+.single_card:hover .hover_part{
+    opacity: 1;
+}
+.hover_part a {
+    color: #fff;
+}
+.hover_part p i {
+    color: #fff;
+}
+
+
+/* play custom css */
+
+.play_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play_left h2 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+}
+.play_left p {
+    text-align: right;
+}
+
+.color_text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play_right{
+    position: relative;
+    width: 500px;
+}
+.play_left{
+    width: 500px;
+}
+
+.play_right .img_position {
+    position: absolute;
+    left: -99px;
+    bottom: -83px;
+}
+
+/* play custom css */
+.play_games {
+    flex-direction: row-reverse;
+    padding: 200px 0px;
+}
+
+img.img_position.img_right {
+    right: -138px !important;
+    left: auto;
+}
+
+/* carrier custom css */
+.carrier_section{
+    padding: 50px 0px;
+    background-color: #F948B2;
+    margin: 0px 0px 20px 0px;
+}
+.carrier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.carrier_list_address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carrier_left{
+    width: 500px;
+    color: #fff;
+}
+.carrier_right{
+    width: 500px;
+}
+
+/* company custom css */
+
+.company{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+
+.company_item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #fff2f2 !important;
+    padding: 5px 15px;
+    border: 1px solid transparent;
+}
+.company_item:hover{
+    border : 1px solid #FF42A5;
+}
+.company_item:hover .company_name {
+    color : #FF42A5;
+}
+.company_item .company_name{
+    color: #0B0223;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* footer custom css */
+footer {
+    text-align: center;
+    background-color: rgb(46, 46, 142);
+    color: #fff;
+    padding: 50px 0px;
+}
+.logo_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_main ul li {
+    padding: 10px 10px;
+    color: #fff;
+}
+.footer_main ul li >a {
+    padding: 10px 10px;
+    color: #fff;
+}
+
+.footer_social ul{
+    display: flex;
+    justify-content: center;
+}
+.footer_important_link ul {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_name span {
+    color: #FF42A5;
+}
+
+@media only screen and (max-width: 800px) {
+    /* default css */
+    a{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 40px !important;
+        text-align: center;
+
+    }
+    h3{
+        font-size: 30px !important;
+        text-align: center;
+    }
+    .main_header {
+        justify-content: center;
+    }
+    .menu {
+        justify-content: center;
+    }
+    .banner {
+        flex-wrap: wrap;
+        padding: 0px 10px;
+    }
+    .gamper {
+        flex-wrap: wrap;
+    }
+    .gamper_right p {
+        width: 100%;
+    }
+    .main_card {
+        flex-wrap: wrap;
+    }
+    .play_section {
+        flex-wrap: wrap;
+    }
+    .play_left h2 {
+        text-align: center;
+    }
+    .play_right .img_position {
+        position: static;
+    }
+    .carrier {
+        flex-wrap: wrap;
+    }
+    .footer_main ul {
+        flex-direction: column;
+    }
+  }
