@@ -98,6 +98,12 @@ nav.main_nav ul li a {
 
 .banner_left{
     background-image: url('images/Group 14.png');
+    background-size: contain;
+    height: 600px;
+    width: 800px ;
+    align-items: center;
+    padding: 190px;
+    margin-right: 50px;
 }
 .banner_left h3{
     color: #0B0223;
@@ -136,6 +142,11 @@ nav.main_nav ul li a {
     justify-content: space-between;
     align-items: center;
     padding: 30px 0px;
+}
+.gamper_img{
+    margin-left: 100px;
+    width: 1068px;
+    height: 400px;
 }
 
 .gamper_right h3 {
@@ -176,7 +187,7 @@ nav.main_nav ul li a {
 }
 .main_card{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 15px;
 }
 .funny_videos h2 strong {
@@ -205,6 +216,22 @@ nav.main_nav ul li a {
     font-style: normal;
     font-weight: 500;
 }
+.card_img_1{
+    height: 400px;
+    width: 300px;
+}
+.card_img_2{
+    height: 400px;
+    width: 540px;
+}
+.card_img_3{
+    height: 400px;
+    width: 300px;
+}
+.card_img_4{
+    height: 400px;
+    width: 500px;
+}
 .hover_part {
     display: flex;
     align-items: center;
@@ -216,8 +243,11 @@ nav.main_nav ul li a {
     color: #fff;
     opacity: 0;
     transition: opacity .5s ease-in-out;
+    
 }
 .single_card:hover img {
+    border: 1px solid #f56fbf;
+    border-radius: 15px;
     filter: brightness(0.5);
 }
 .single_card:hover .hover_part{
@@ -420,7 +450,10 @@ footer {
         flex-direction: column;
     }
     .banner_left{
-        padding: 40px;
+        margin-left: 10px;
+        height: 350px;
+        width: 900px;
+        padding: 10px;
         align-items: center;
     }
     .banner_container{
@@ -430,8 +463,16 @@ footer {
     .gamper{
         flex-direction: column;
     }
-    .gamper_right{
+    .gamper_img{
+        margin-left: 0px;
+    }
+    .gamper_right {
         text-align: center;
+    }
+    .gamper_right p{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .text-center{
         margin-left: 10px;
@@ -441,6 +482,20 @@ footer {
     }
     .card_description{
         text-align: center;
+    }
+    .color_text{
+        text-align: center;
+    }
+    .play_left p{
+        text-align: center;
+    }
+    .play_left,
+    .games_color_text h2 p{
+        text-align: center !important;
+        padding: 20px;
+    }
+    .img_position{
+        right: -300px;
     }
     .company_item{
         flex-direction: column;
