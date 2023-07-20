@@ -96,20 +96,19 @@ nav.main_nav ul li a {
     margin-right: 5px ;
 }
 
+.banner_left{
+    background-image: url('images/Group 14.png');
+}
 .banner_left h3{
     color: #0B0223;
-    text-align: center;
+    /* text-align: center; */
     font-size: 48px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: uppercase;
 }
 .banner_left h2{
     font-size: 95px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -141,9 +140,7 @@ nav.main_nav ul li a {
 
 .gamper_right h3 {
     font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;   
+    font-weight: 700;   
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -402,7 +399,55 @@ footer {
 .copyright p {
     padding-top: 30px;
 }
+/* Responsive styles */
 
+@media screen and (max-width: 576px) {
+    .main_header{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .menu{
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+    .menu_button{
+        margin-top: 50px;
+    }
+    .main_nav{
+        flex-direction: column;
+    }
+    .banner_left{
+        padding: 40px;
+        align-items: center;
+    }
+    .banner_container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .gamper{
+        flex-direction: column;
+    }
+    .gamper_right{
+        text-align: center;
+    }
+    .text-center{
+        margin-left: 10px;
+    }
+    .main_card{
+        margin-left: 25px;
+    }
+    .card_description{
+        text-align: center;
+    }
+    .company_item{
+        flex-direction: column;
+    }
+   
+    
+}
 @media only screen and (max-width: 800px) {
     /* default css */
     a{
